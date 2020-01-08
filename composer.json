@@ -1,0 +1,27 @@
+{
+    "name": "malonzhao/laravel-ali-oss",
+    "description": "ali oss filesystem storage for laravel 5+",
+    "keywords": ["ali", "oss", "laravel", "filesystems", "storage"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MalonZhao",
+            "email": "malonzhao@gmail.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MalonZhao\\AliOSS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MalonZhao\\AliOSS\\AliOssServiceProvider"
+            ]
+        }
+    }
+}
