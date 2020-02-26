@@ -1,9 +1,9 @@
 <?php
 
-namespace MalonZhao\AliOSS;
+namespace Malon\AliOSS;
 
-use MalonZhao\AliOSS\Plugins\PutFile;
-use MalonZhao\AliOSS\Plugins\PutRemoteFile;
+use Malon\AliOSS\Plugins\PutFile;
+use Malon\AliOSS\Plugins\PutRemoteFile;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;

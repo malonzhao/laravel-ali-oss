@@ -7,16 +7,16 @@
 ##Installation
 In order to install AliOSS-storage, just add
 
-    "malonzhao/laravel-ali-oss": "^1.0"
+    "malon/laravel-ali-oss": "^1.0"
 
 to your composer.json. Then run `composer install` or `composer update`.  
 Or you can simply run below command to install:
 
-    "composer require malonzhao/laravel-ali-oss:^1.0"
+    "composer require malon/laravel-ali-oss:^1.0"
     
 Then in your `config/app.php` add this line to providers array:
 ```php
-MalonZhao\AliOSS\AliOssServiceProvider::class,
+Malon\AliOSS\AliOssServiceProvider::class,
 ```
 ## Configuration
 Add the following in app/filesystems.php:

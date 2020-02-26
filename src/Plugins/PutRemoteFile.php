@@ -1,6 +1,6 @@
 <?php
 
-namespace MalonZhao\AliOSS\Plugins;
+namespace Malon\AliOSS\Plugins;
 
 use League\Flysystem\Config;
 use League\Flysystem\Plugin\AbstractPlugin;
